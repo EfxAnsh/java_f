@@ -1,3 +1,4 @@
+package experiment_1;
 import java.util.Scanner;
 public class dayofweek {
 
