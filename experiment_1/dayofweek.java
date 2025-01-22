@@ -36,6 +36,7 @@ public class dayofweek {
             }
     
             System.out.println(day);
+            scanner.close();
         }
     }
     

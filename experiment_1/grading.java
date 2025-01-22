@@ -27,6 +27,7 @@ public class grading {
             }
     
             System.out.println("Final Grade: " + grade);
+            scanner.close();
         }
     }
     
