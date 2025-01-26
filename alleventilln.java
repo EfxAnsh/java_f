@@ -10,7 +10,7 @@ public class alleventilln {
                 System.out.println(i);
             }
          }
-         
+         sc.close();
     }
     
 }

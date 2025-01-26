@@ -13,6 +13,7 @@ public class greater {
      }else{
         System.out.println("b is greater than a!");
      }
+     sc.close();
     }
     
 }

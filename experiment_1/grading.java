@@ -1,28 +1,33 @@
-import java.util.*;
+package experiment_1;
+import java.util.Scanner;
 public class grading {
-    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-       System.out.println("enter marks of subject 1: ");
-       int a=sc.nextInt();
-       System.out.println("enter marks of subject 2: ");
-       int b=sc.nextInt();
-       System.out.println("enter marks of subject 3: ");
-       int c=sc.nextInt();
-        double average=(a+b+c)/3;
-        if(a>100||b>100||c>100){
-            System.out.println("invalid marks entered ");
-        }else{
-
-        if(average>=90){
-            System.out.println("Grade=A");
-        }else if(average>=75){
-            System.out.println("Grade=B");
-        }else if(average>=50){
-            System.out.println("Grade=C");
-
-        }else{
-            System.out.println("Fail");
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+    
+            System.out.print("Enter marks for Subject 1: ");
+            int subject1 = scanner.nextInt();
+    
+            System.out.print("Enter marks for Subject 2: ");
+            int subject2 = scanner.nextInt();
+    
+            System.out.print("Enter marks for Subject 3: ");
+            int subject3 = scanner.nextInt();
+    
+            double average = (subject1 + subject2 + subject3) / 3.0;
+    
+            char grade;
+            if (average >= 90) {
+                grade = 'A';
+            } else if (average >= 75) {
+                grade = 'B';
+            } else if (average >= 50) {
+                grade = 'C';
+            } else {
+                grade = 'F';
+            }
+    
+            System.out.println("Final Grade: " + grade);
+            scanner.close();
         }
     }
-}
-}
+    

@@ -24,5 +24,6 @@ public class gradingpratice {
             System.out.println("Fail");
         }
     }
+    sc.close();
 }
 }
