@@ -1,5 +1,5 @@
 import java.util.*;
-public class grading {
+public class gradingpratice {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
        System.out.println("enter marks of subject 1: ");
