@@ -1,4 +1,4 @@
-package experiment_1;
+package experiment_2;
 import java.util.Scanner;
 public class grading {
         public static void main(String[] args) {

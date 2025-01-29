@@ -1,4 +1,4 @@
-package experiment_1;
+package experiment_2;
 public class  starLoop {
     public static void main(String[] args) {
         int rows = 4;
