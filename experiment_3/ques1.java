@@ -1,5 +1,4 @@
 package experiment_3;
-import java.util.*;
 public class ques1 {
     
         public static void main(String[] args) {
