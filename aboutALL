@@ -1,0 +1,49 @@
+1)-
+a-Default Constructor: Initializes name with "Default Name" and age with 18.
+b-Parameterized Constructor: Takes user-defined values for name and age.
+c-display() Method: Prints the student's name and age.
+d-In main() Method:
+	•	student1 is created using the default constructor.
+	•	student2 is created using the parameterized constructor with custom values.
+
+
+2)-
+Private Variable (balance)
+	•	Can only be accessed inside the BankAccount class.
+	•	Direct access from main() is not allowed.
+Public Method (deposit(double amount))
+	•	Can be accessed from anywhere.
+	•	Used to add money to the account.
+Protected Method (withdraw(double amount))
+	•	Can be accessed within the class and subclasses.
+	•	Can also be accessed in the same package.
+	•	Used to withdraw money from the account.
+Default-Access Method (checkBalance())
+	•	Can be accessed within the same package.
+	•	Displays the current balance.
+
+
+3)
+-universityName is static, so it's shared across all instances of University. Changing it once reflects everywhere.
+studentName is an instance variable, unique to each object of University.
+We use a static method to display the university name, and a non-static method to display the student's name.
+
+4)-
+✅ Used this keyword in the constructor to differentiate between class attributes and parameters.
+✅ Created a displayCourseDetails() method to neatly print the course name and code.
+✅ Created an object (course1) in main() and called the method to display details.
+
+5)-
+✅ Encapsulation:
+	•	The salary variable is private, ensuring that it cannot be accessed directly outside the class.
+	•	A getter method (getSalary()) provides controlled access to salary details.
+✅ Static Variable & Method:
+	•	totalEmployees is declared as static, meaning it is shared among all Employee objects.
+	•	displayTotalEmployees() is a static method that displays the total count of employees.
+✅ Constructors Usage:
+	•	Default Constructor: Initializes attributes with default values.
+	•	Parameterized Constructor: Allows setting values dynamically using user input.
+✅ Non-Static Methods:
+	•	displayEmployeeInfo(): Displays an employee's details.
+	•	calculateSalary(): Returns the salary of an employee.
+
