@@ -13,7 +13,7 @@ class subclass extends superclass{
         System.out.println("value= " +getPvar());
     }
 }
-public class ques_1SC {
+public class ques1_SC {
     public static void main(String[] args) {
         
         subclass obj=new subclass();
