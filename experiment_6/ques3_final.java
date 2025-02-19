@@ -18,14 +18,12 @@ class Circle extends MathConstants {
         System.out.println("Area of Circle: " + area);
     }
     
-    // Attempting to override final method (will cause an error if uncommented)
-    /*
-    @Override
-    void displayPI() {
-        System.out.println("Overriding final method");
-    }
-    */
-}
+    
+    //@Override
+    //void displayPI() {
+      //  System.out.println("Overriding final method");
+   // }
+//}
 
 
 public class ques3_final {
@@ -34,11 +32,12 @@ public class ques3_final {
         circle.displayPI(); 
         circle.calculateArea(5.0); 
         
-        // Attempting to modify final variable (will cause an error if uncommented)
+        
         /*
         circle.PI = 3.14; // cannot assign a value to final variable 'PI'
         */
     }
+}
 }
 
 

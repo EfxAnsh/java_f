@@ -8,7 +8,7 @@ public class B extends A {
         
         objA.publicMethod(); 
 
-        // objA.protectedMethod(); 
+         //objA.protectedMethod(); 
         // objA.defaultMethod();   
         // objA.privateMethod();   
 
