@@ -16,5 +16,8 @@ public class A {
     private void privateMethod() {
         System.out.println("Private method called");
     }
+    public void getprivatemethod(){
+        privateMethod();
+    }
 }
 
